@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no-nb">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>parprogrammering</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    
+
+<body >
+
+    <section>
+       <label for="tallinput">skriv inn et tilfeldig tall</label><br><br>
+        <input id="tallinput" type="number" placeholder="skriv inn et tilfeldig tall">
+        <br>
+        <button id="Checker" onclick="sjekkTall(tallinput.value)">Sjekk</button>
+        <br>
+        <p id="GiveUpButton"></p>
+        <p id="resultat"></p>
+    </section>
 
 
-
-    <script src="../js/main.js"></script>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
